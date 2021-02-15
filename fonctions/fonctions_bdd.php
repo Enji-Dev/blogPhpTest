@@ -11,8 +11,7 @@ function connectDB() {
 		// On le renvoie
 		return $truc_muche;
 	} catch (PDOException $e) {
-		echo $e->getCode();
-		echo $e->getMessage();
+		include __DIR__ . '/../erreurs/500.php';
 		die();
 	}
 }
