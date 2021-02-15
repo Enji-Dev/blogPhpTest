@@ -1,0 +1,14 @@
+But : afficher des commentaires sur la page article.php
+
+Etapes : 
+	Dans la DB
+	- Créer une table commentaires
+	- Créer quelques commentaires (pour pouvoir tester)
+
+	Sur article.php
+	- Récupérer les commentaires dans la DB
+	- Afficher tous les commentaires
+	- Créer un mini-formulaire pour poster un commentaire
+
+	Sur le handler des commentaires
+	- Insérer un commentaire dans la DB
